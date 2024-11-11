@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2019/10/09/13/10/halloween-4537430_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}

@@ -1,0 +1,28 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/12/17/12/sign-151771_1280.png);
+    height: 300px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+    color: wheat;
+}
+
+header h1 {
+    font-size: 50px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}

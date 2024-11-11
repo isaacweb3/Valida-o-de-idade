@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: antiquewhite; */
+    background-image: url(https://cdn.pixabay.com/photo/2020/11/07/01/28/abstract-5719221_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+}
+
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    border: 10px solid rgba(255, 255, 255, 0.651);
+    border-radius: 10px;
+    width: 50%;
+    background-color: #697580;
+    padding: 30px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10%;
+    border-radius: 10px;
+    transition: 500ms;
+    margin: 10px;
+    padding: 3px;
+    
+}
+
+button:hover {
+    background-color: gray;
+    color: #ffffff;
+    transform: scale(1.1);
+    transform: rotate(360deg);
+
+
+}
+
+#idadeInput {
+    border-radius: 20px;
+    padding: 3px;
+
+}
